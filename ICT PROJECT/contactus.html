@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contact Us - Attire Avenue</title>
+  </head>
+  <body>
+    <!-- Header Bar -->
+    <div class="header__bar">Free Shipping on Orders Over $50</div>
+
+    <!-- Navbar -->
+    <nav class="section__container nav__container">
+      <a href="./index.html" class="nav__links">
+        <img
+          src="assets/logo.png"
+          alt="Attire Avenue Logo"
+          style="height: 70px; width: 70px"
+        />
+        <span style="color: black">Attire Avenue</span></a
+      >
+      <ul class="nav__links">
+        <li class="link"><a href="./index.html">HOME</a></li>
+        <li class="link"><a href="./product.html">Product</a></li>
+        <li class="link"><a href="./aboutus.html">About Us</a></li>
+        <li class="link"><a href="./contactus.html">Contact Us</a></li>
+      </ul>
+      <div class="nav__icons">
+        <span><i class="ri-shield-user-line"></i></span>
+        <span><i class="ri-search-line"></i></span>
+        <span><i class="ri-shopping-bag-2-line"></i></span>
+      </div>
+    </nav>
+
+    <!-- Contact Us Section -->
+    <section class="section__container contact">
+      <div class="contact__form">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email Address"
+            required
+          />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="section__container footer__container"
+      style="padding: 1rem; gap: 2px"
+    >
+      <h4 class="footer__heading">CONTACT INFO</h4>
+
+      <div class="footer__info">
+        <p><i class="ri-map-pin-2-fill"></i> Rawalpindi</p>
+        <p><i class="ri-mail-fill"></i> support@attre.com</p>
+        <p><i class="ri-phone-fill"></i> (+92) 333 111111</p>
+      </div>
+    </footer>
+    <hr />
+    <div class="section__container footer__bar">
+      <div class="copyright">
+        Copyright © 2024 Attire Avenue. All rights reserved.
+      </div>
+      <div class="footer__form">
+        <form>
+          <input type="text" placeholder="ENTER YOUR EMAIL" />
+          <button class="btn" type="submit">SUBSCRIBE</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
